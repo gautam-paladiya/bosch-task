@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Predict the nationality of a name</h1>
+      <p>Enter person name to see nationality by the name</p>
+      <form onsubmit="SubmitForm(); return false;">
+        <label for="name">Enter Your name</label>
+        <input required type="text" name="username" id="name" />
+        <input type="submit" />
+      </form>
+    </div>
+    <div id="listData"></div>
+  </body>
+  <script src="./script.js"></script>
+</html>
